@@ -18,6 +18,14 @@ if (markBMI > johnsBMI) {
 
 
 
+embedCode = () =>{
+    fetch(url)
+    .then(response => response.json())
+    .then(data => {
+      document.body.insertAdjacentHTML("beforeend", data);
+    });
+  };
+
 //  mass / height^2 = mass / (height * height). 
 // (mass in kg and height in meter)
 // var BMIMark = massMark / (heightMark * heightMark);
