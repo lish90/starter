@@ -32,7 +32,26 @@
         <div class="challenge" id="challenge_answer">
             <h3>Answer to question</h3>
             <br>
-            
+
+        </div>
+        <div class="challenge" id="workingOut">
+            <h3>Code workingout</h3>
+            <br>
+            <p>
+                let markBMI = marksMass / (marksHeight * marksHeight);
+                let johnsBMI = johnsMass / (johnsHeight * johnsHeight);
+                console.log(markBMI, johnsBMI);
+                let marksHigherBMI = markBMI > johnsBMI;
+                console.log(marksHigherBMI);
+
+
+                if (markBMI > johnsBMI) {
+                console.log("Is Mark's BMI higher than John's? " + marksHigherBMI);
+                } else {
+                console.log("Is john's BMI higher than Mark's? " + marksHigherBMI);
+                }
+            </p>
+
         </div>
         <div class="challenge" id="challenge_cal">
             <h3>calculate your BMI</h3>
@@ -55,8 +74,7 @@
         <div class="challenge" id="challenge_2">
             <h2>* CODING CHALLENGE 2</h2>
             <p>John and Mike both play basketball in different teams. In the latest 3 games, John's team scored 89, 120
-                and
-                103 points, while Mike's team scored 116, 94 and 123 points.</p>
+                and 103 points, while Mike's team scored 116, 94 and 123 points.</p>
             <Ol>
                 <li> Calculate the average score for each team</li>
                 <li> Decide which teams wins in average (highest average score), and print the winner to the console.
